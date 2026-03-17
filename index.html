@@ -641,8 +641,8 @@
       Ce sont les IA.
     </h1>
     <p class="hero-sous-titre">
-      Le GEO (Generative Engine Optimization) redistribue les cartes du référencement.<br>
-      Pour les PME B2B/B2C, la fenêtre est ouverte.<br>
+      Le GEO redistribue les cartes du référencement.<br>
+      Pour les PME B2B et B2C, la fenêtre est ouverte.<br>
       Elle ne le sera pas éternellement...
     </p>
     <a href="#contact" class="btn-marine">Parlons de votre blog →</a>
@@ -922,7 +922,7 @@
     </h2>
     <p class="contact-sous-titre">
       15 à 20 minutes en visio pour évaluer votre potentiel GEO<br>
-      et voir si on est mutuellement alignés (sûr que oui :-)
+      et voir si on s'aligne.
     </p>
 
     <div id="form-wrapper" class="form-wrapper">
@@ -1035,24 +1035,6 @@
     initChartPaths();
     if (basculementEl) chartObserver.observe(basculementEl);
 
-    /* ===== FORM SUBMISSION ===== */
-    var contactForm   = document.getElementById('contact-form');
-    var formWrapper   = document.getElementById('form-wrapper');
-
-    if (contactForm) {
-      contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        if (!contactForm.checkValidity()) {
-          contactForm.reportValidity();
-          return;
-        }
-        formWrapper.innerHTML =
-          '<div style="text-align:center; padding:48px 0;">' +
-          '<p style="font-family:\'Inter\',sans-serif; font-size:20px; font-weight:500; color:#1B2235;">' +
-          'Merci. Je vous réponds dans les 24h.' +
-          '</p></div>';
-      });
-    }
   </script>
 
 </body>
