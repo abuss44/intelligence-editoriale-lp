@@ -63,7 +63,7 @@
       align-items: center;
       justify-content: space-between;
     }
-    .header-logo { height: 52px; width: auto; padding-left: 8px; }
+    .header-logo { height: 72px; width: auto; padding-left: 8px; }
 
     .btn-header {
       display: inline-block;
@@ -119,7 +119,7 @@
     }
     .hero-surtitre {
       font-family: 'Inter', sans-serif;
-      font-size: 13px;
+      font-size: 16px;
       font-variant: small-caps;
       color: var(--ambre);
       letter-spacing: 2px;
@@ -254,7 +254,17 @@
       text-align: left;
     }
     .col-card { display: flex; flex-direction: column; }
-    .col-icon { margin-bottom: 20px; }
+    .col-icon { margin-bottom: 24px; }
+    .col-icon-wrap {
+      width: 64px;
+      height: 64px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .col-icon-wrap.amber { background: #FEF3DC; }
+    .col-icon-wrap.navy  { background: #E4E7EF; }
     .col-titre {
       font-family: 'Inter', sans-serif;
       font-size: 16px;
@@ -392,6 +402,15 @@
       transition: filter 0.3s ease, opacity 0.3s ease;
     }
     .client-logo:hover { filter: grayscale(0); opacity: 1; }
+    .client-logo-bg {
+      height: 36px;
+      width: auto;
+      border-radius: 6px;
+      filter: grayscale(100%);
+      opacity: 0.55;
+      transition: filter 0.3s ease, opacity 0.3s ease;
+    }
+    .client-logo-bg:hover { filter: grayscale(0); opacity: 1; }
 
     @media (max-width: 768px) {
       #qui { padding: 64px 24px; }
@@ -641,8 +660,8 @@
       Ce sont les IA.
     </h1>
     <p class="hero-sous-titre">
-      Le GEO (Generative Engine Optimization) redistribue les cartes du référencement.<br>
-      Pour les PME B2B/B2C, la fenêtre est ouverte.<br>
+      Le GEO redistribue les cartes du référencement.<br>
+      Pour les PME B2B et B2C, la fenêtre est ouverte.<br>
       Elle ne le sera pas éternellement...
     </p>
     <a href="#contact" class="btn-marine">Parlons de votre blog →</a>
@@ -741,39 +760,49 @@
       <!-- Colonne 1 -->
       <div class="col-card">
         <div class="col-icon">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M6 5H26C27.1 5 28 5.9 28 7V19C28 20.1 27.1 21 26 21H14L8 27V21H6C4.9 21 4 20.1 4 19V7C4 5.9 4.9 5 6 5Z" stroke="#1B2235" stroke-width="1.8" fill="none"/>
-            <line x1="5" y1="5" x2="28" y2="28" stroke="#1B2235" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
+          <div class="col-icon-wrap amber">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path d="M4 7C4 5.9 4.9 5 6 5H30C31.1 5 32 5.9 32 7V22C32 23.1 31.1 24 30 24H16.5L9 31V24H6C4.9 24 4 23.1 4 22V7Z" fill="#E8A020" fill-opacity="0.2" stroke="#E8A020" stroke-width="2" stroke-linejoin="round"/>
+              <line x1="13" y1="12" x2="23" y2="20" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+              <line x1="23" y1="12" x2="13" y2="20" stroke="#E8A020" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </div>
         </div>
         <h3 class="col-titre">Contenu sans position claire</h3>
-        <p class="col-texte">Les LLM (Large Language Model) ignorent les articles génériques. Ils citent les contenus qui tranchent.</p>
+        <p class="col-texte">Les LLM ignorent les articles génériques. Ils citent les contenus qui tranchent.</p>
       </div>
 
       <!-- Colonne 2 -->
       <div class="col-card">
         <div class="col-icon">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <rect x="3" y="6" width="26" height="22" rx="3" stroke="#1B2235" stroke-width="1.8"/>
-            <line x1="3"  y1="13" x2="29" y2="13" stroke="#1B2235" stroke-width="1.8"/>
-            <line x1="10" y1="2"  x2="10" y2="10" stroke="#1B2235" stroke-width="1.8" stroke-linecap="round"/>
-            <line x1="22" y1="2"  x2="22" y2="10" stroke="#1B2235" stroke-width="1.8" stroke-linecap="round"/>
-            <line x1="12" y1="19" x2="20" y2="27" stroke="#1B2235" stroke-width="1.8" stroke-linecap="round"/>
-            <line x1="20" y1="19" x2="12" y2="27" stroke="#1B2235" stroke-width="1.8" stroke-linecap="round"/>
-          </svg>
+          <div class="col-icon-wrap navy">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <rect x="3" y="6" width="30" height="26" rx="4" fill="#1B2235" fill-opacity="0.12" stroke="#1B2235" stroke-width="2"/>
+              <line x1="3" y1="15" x2="33" y2="15" stroke="#1B2235" stroke-width="2"/>
+              <line x1="11" y1="2" x2="11" y2="11" stroke="#1B2235" stroke-width="2" stroke-linecap="round"/>
+              <line x1="25" y1="2" x2="25" y2="11" stroke="#1B2235" stroke-width="2" stroke-linecap="round"/>
+              <line x1="13" y1="22" x2="23" y2="30" stroke="#1B2235" stroke-width="2.2" stroke-linecap="round"/>
+              <line x1="23" y1="22" x2="13" y2="30" stroke="#1B2235" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+          </div>
         </div>
         <h3 class="col-titre">Blog en déshérence</h3>
-        <p class="col-texte">Un dernier article vieux de 14 mois envoie un signal négatif à vos prospects... et aux algorithmes.</p>
+        <p class="col-texte">Un dernier article vieux de 14 mois envoie un signal négatif à vos prospects, et aux algorithmes.</p>
       </div>
 
       <!-- Colonne 3 -->
       <div class="col-card">
         <div class="col-icon">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path d="M5 2H20L28 10V30H5Z" stroke="#1B2235" stroke-width="1.8" fill="none"/>
-            <path d="M20 2V10H28" stroke="#1B2235" stroke-width="1.8" fill="none"/>
-            <text x="16" y="26" text-anchor="middle" fill="#1B2235" font-family="Inter, sans-serif" font-size="13" font-weight="700">?</text>
-          </svg>
+          <div class="col-icon-wrap amber">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+              <path d="M6 2H22L32 12V34H6Z" fill="#E8A020" fill-opacity="0.18" stroke="#E8A020" stroke-width="2" stroke-linejoin="round"/>
+              <path d="M22 2V12H32" stroke="#E8A020" stroke-width="2" stroke-linejoin="round"/>
+              <line x1="12" y1="19" x2="24" y2="19" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+              <line x1="12" y1="24" x2="19" y2="24" stroke="#E8A020" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+              <circle cx="26" cy="27" r="5" fill="#E8A020"/>
+              <text x="26" y="31" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="8" font-weight="700">?</text>
+            </svg>
+          </div>
         </div>
         <h3 class="col-titre">Pas structuré pour les IA</h3>
         <p class="col-texte">Sans architecture GEO dès la conception, votre contenu n'a aucune chance d'être cité par une IA.</p>
@@ -787,14 +816,14 @@
   <!-- ===== SECTION 4 — LA RÉPONSE ===== -->
   <section id="reponse" class="fade-in">
     <h2 class="reponse-headline">
-      2 articles par mois.<br>
+      Deux articles par mois.<br>
       Écrits pour les humains.<br>
       Optimisés pour les IA.
     </h2>
     <p class="reponse-para">
       Pas de contenu générique. Pas de volume pour le volume.<br>
       Des billets de fond, positionnés GEO/SEO dès la conception,<br>
-      qui installent votre autorité là où vos prospects cherchent des informations que vous pouvez leur fournir. Dès maintenant.
+      qui installent votre autorité là où vos prospects cherchent maintenant.
     </p>
     <div class="points-row">
 
@@ -848,14 +877,16 @@
       <div class="qui-droite">
         <div class="bio-texte">
           <p>J'ai mis vingt-cinq ans à comprendre qu'écrire, ce n'est pas remplir des pages. C'est poser des questions que personne n'a encore posées. Puis y répondre avec méthode.</p>
-          <p>Concepteur-rédacteur de formation, j'ai travaillé pour des marques, des agences, des médias. Parisien pendant quinze ans, installé à Nantes depuis 2011, spécialisé dans le contenu long format et le journalisme institutionnel.</p>
-          <p>Aujourd'hui, j'accompagne des PME B2B/B2C dans leur stratégie éditoriale avec une conviction : l'IA n'écrit pas l'autorité. Elle amplifie celle qui existe déjà.</p>
+          <p>Concepteur-rédacteur de formation, j'ai travaillé pour des marques, des agences, des médias. Parisien pendant quinze ans, installé à Nantes, spécialisé dans le contenu long format et le journalisme institutionnel.</p>
+          <p>Aujourd'hui, j'accompagne des PME B2B dans leur stratégie éditoriale avec une conviction : l'IA n'écrit pas l'autorité. Elle amplifie celle qui existe déjà.</p>
           <p>Formé à l'utilisation des IA, je travaille avec les meilleurs LLM pour aller plus loin, plus vite. Et sans jamais substituer la machine à l'expertise.</p>
         </div>
         <p class="clients-label">Clients récents</p>
         <div class="clients-logos">
-          <img src="assets/MASLO%20-%20logo.png"      alt="Maslo"      class="client-logo">
-          <img src="assets/Leakmited%20-%20logo.png"  alt="Leakmited"  class="client-logo">
+          <img src="assets/MASLO%20-%20logo.png"           alt="Maslo"               class="client-logo">
+          <img src="assets/Leakmited%20-%20logo.png"       alt="Leakmited"           class="client-logo">
+          <img src="assets/logo-unique-en-son-genre.png"   alt="Unique en son Genre" class="client-logo">
+          <img src="assets/logo-we-are-public.png"         alt="We Are Public"       class="client-logo-bg">
         </div>
       </div>
 
