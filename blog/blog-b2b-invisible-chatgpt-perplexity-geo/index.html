@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog B2B invisible sur ChatGPT et Perplexity ? Voici pourquoi</title>
+  <meta name="description" content="Votre blog est bien référencé sur Google mais absent des réponses IA ? Découvrez ce qui change avec le GEO et comment prendre les places disponibles.">
+  <link rel="canonical" href="https://intelligence-editoriale.fr/blog/blog-b2b-invisible-chatgpt-perplexity-geo/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- JSON-LD : Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Votre blog B2B est bien référencé sur Google. Pourquoi est-il invisible sur ChatGPT et Perplexity ?",
+    "description": "Votre blog est bien référencé sur Google mais absent des réponses IA ? Découvrez ce qui change avec le GEO et comment prendre les places disponibles.",
+    "datePublished": "2026-04-05",
+    "url": "https://intelligence-editoriale.fr/blog/blog-b2b-invisible-chatgpt-perplexity-geo/",
+    "author": {
+      "@type": "Person",
+      "name": "Arnaud Bussières",
+      "jobTitle": "Rédacteur éditorial senior, spécialiste contenu B2B et GEO",
+      "url": "https://www.linkedin.com/in/arnaud-bussieres/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Intelligence Éditoriale",
+      "url": "https://intelligence-editoriale.fr"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD : FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Mon contenu est-il trop ancien pour être optimisé GEO ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non. La mise à jour d'un article existant produit souvent un effet GEO plus rapide qu'un nouvel article sur un sujet saturé. Ajouter un résumé de tête, reformuler les titres H2 et intégrer une FAQ à un article de 2 ans suffit dans la majorité des cas. La date de mise à jour est elle-même un signal de fraîcheur valorisé par les LLM."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Faut-il publier plus souvent pour être cité par les moteurs IA ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La fréquence de publication n'est pas un critère de sélection pour les LLM. Un seul article bien structuré sur un angle précis et non saturé sera cité avant dix articles génériques. La densité factuelle et l'autonomie de chaque section comptent davantage que le volume."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Combien de temps avant de voir des résultats ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Les premiers tests de citation peuvent être effectués 7 jours après publication. Les résultats se stabilisent entre J+21 et J+45. Contrairement au SEO, qui construit l'autorité sur des mois, le GEO peut produire des citations rapidement sur des angles non couverts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Mon secteur est-il concerné par le GEO ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tous les secteurs B2B sont concernés dès lors que vos prospects utilisent ChatGPT ou Perplexity pour s'informer avant un acte d'achat ou une recherche de prestataire. En B2B industriel, logistique, SaaS ou services, les requêtes conversationnelles liées aux problématiques métier explosent depuis 2024."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Le GEO va-t-il remplacer le SEO ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non. Ce sont deux disciplines complémentaires. Un excellent SEO reste la condition nécessaire : les LLM s'appuient sur les index Google et Bing pour sélectionner leurs sources. Le GEO ajoute une couche par-dessus : la structuration pour l'extraction. Un contenu mal référencé sur Google ne sera pas cité par les LLM. Un contenu bien référencé mais mal structuré non plus."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Faut-il des compétences techniques pour optimiser son blog en GEO ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L'essentiel du GEO est éditorial, pas technique. Reformuler des titres, ajouter un résumé de tête, intégrer une FAQ : ce sont des décisions d'écriture, pas de développement. La partie technique (données structurées JSON-LD, balises schema.org) est réelle mais secondaire. Elle s'implémente une fois, en amont, et ne conditionne pas l'essentiel des citations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quels sont les principaux moteurs de recherche IA à cibler en priorité ?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "En 2026, quatre moteurs génératifs concentrent l'essentiel des usages professionnels : Google AI Overviews, ChatGPT Search, Perplexity et Microsoft Copilot. Ces quatre moteurs s'appuient sur les index Google et Bing pour sélectionner leurs sources."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD : BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://intelligence-editoriale.fr/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://intelligence-editoriale.fr/blog/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Blog B2B invisible sur ChatGPT et Perplexity ?",
+        "item": "https://intelligence-editoriale.fr/blog/blog-b2b-invisible-chatgpt-perplexity-geo/"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --blanc:       #FAFAF8;
+      --gris-clair:  #F3F2EF;
+      --marine:      #1B2235;
+      --ambre:       #E8A020;
+      --texte:       #1B2235;
+      --texte-moyen: #5A5A5A;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--blanc);
+      color: var(--texte);
+      line-height: 1.7;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ===== HEADER ===== */
+    #main-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: var(--blanc);
+      border-bottom: 1px solid #E8E8E4;
+      transition: box-shadow 0.3s ease;
+    }
+    #main-header.scrolled { box-shadow: 0 2px 16px rgba(0,0,0,0.07); }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-logo { height: 52px; width: auto; padding-left: 8px; }
+    .btn-header {
+      background: var(--marine);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: opacity 0.2s;
+    }
+    .btn-header:hover { opacity: 0.85; }
+
+    /* ===== BREADCRUMB ===== */
+    .breadcrumb {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 100px 24px 0;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--texte-moyen);
+    }
+    .breadcrumb a { color: var(--texte-moyen); }
+    .breadcrumb a:hover { color: var(--ambre); }
+    .breadcrumb span { margin: 0 6px; }
+
+    /* ===== ARTICLE ===== */
+    article {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      flex-wrap: wrap;
+    }
+    .article-tag {
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--ambre);
+      background: rgba(232, 160, 32, 0.1);
+      padding: 4px 10px;
+      border-radius: 3px;
+    }
+    .article-date {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--texte-moyen);
+    }
+    .article-readtime {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--texte-moyen);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 44px;
+      font-weight: 700;
+      color: var(--marine);
+      line-height: 1.2;
+      margin-bottom: 32px;
+    }
+
+    /* Résumé de tête — chunk prioritaire */
+    .article-resume {
+      background: var(--gris-clair);
+      border-left: 3px solid var(--ambre);
+      padding: 24px 28px;
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 48px;
+    }
+    .article-resume p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--marine);
+    }
+
+    /* Corps de l'article */
+    .article-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--marine);
+      margin: 56px 0 20px;
+      line-height: 1.3;
+    }
+    .article-body p {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--texte);
+      line-height: 1.85;
+      margin-bottom: 20px;
+    }
+    .article-body strong {
+      color: var(--marine);
+      font-weight: 600;
+    }
+    .article-body a {
+      color: var(--ambre);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .article-body a:hover { opacity: 0.8; }
+
+    /* Liste ordonnée GEO */
+    .article-body ol {
+      list-style: none;
+      counter-reset: geo-counter;
+      margin: 24px 0 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .article-body ol li {
+      counter-increment: geo-counter;
+      display: flex;
+      gap: 16px;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      color: var(--texte);
+    }
+    .article-body ol li::before {
+      content: counter(geo-counter);
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      background: var(--ambre);
+      color: var(--marine);
+      font-weight: 700;
+      font-size: 13px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px;
+    }
+
+    /* Liste à puces moteurs */
+    .article-body ul {
+      list-style: none;
+      margin: 20px 0 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .article-body ul li {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      padding-left: 20px;
+      position: relative;
+    }
+    .article-body ul li::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 6px;
+      height: 6px;
+      background: var(--ambre);
+      border-radius: 50%;
+    }
+
+    /* Séparateur de section */
+    .article-body hr {
+      border: none;
+      border-top: 1px solid #E8E8E4;
+      margin: 56px 0;
+    }
+
+    /* ===== FAQ ===== */
+    .faq-section {
+      margin-top: 56px;
+      border-top: 2px solid var(--ambre);
+      padding-top: 40px;
+    }
+    .faq-titre {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--marine);
+      margin-bottom: 36px;
+    }
+    .faq-item {
+      border-bottom: 1px solid #E8E8E4;
+      padding: 24px 0;
+    }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--marine);
+      margin-bottom: 12px;
+    }
+    .faq-reponse {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      color: var(--texte-moyen);
+      line-height: 1.8;
+    }
+
+    /* ===== CE QU'IL FAUT RETENIR ===== */
+    .retenir-block {
+      background: var(--marine);
+      color: #fff;
+      border-radius: 8px;
+      padding: 40px 44px;
+      margin-top: 56px;
+    }
+    .retenir-titre {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      color: var(--ambre);
+      margin-bottom: 20px;
+    }
+    .retenir-block p {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.85;
+      color: rgba(255,255,255,0.85);
+      margin-bottom: 16px;
+    }
+    .retenir-block p:last-child { margin-bottom: 0; }
+    .retenir-block strong { color: #fff; }
+
+    /* ===== AUTEUR ===== */
+    .auteur-block {
+      display: flex;
+      align-items: flex-start;
+      gap: 28px;
+      margin-top: 56px;
+      padding: 36px 0;
+      border-top: 1px solid #E8E8E4;
+      border-bottom: 1px solid #E8E8E4;
+    }
+    .auteur-photo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--ambre);
+      flex-shrink: 0;
+    }
+    .auteur-nom {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--marine);
+      margin-bottom: 4px;
+    }
+    .auteur-titre {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: var(--texte-moyen);
+      margin-bottom: 12px;
+    }
+    .auteur-bio {
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      line-height: 1.75;
+      color: var(--texte-moyen);
+    }
+    .auteur-bio a {
+      color: var(--ambre);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    /* ===== CTA BAS D'ARTICLE ===== */
+    .article-cta {
+      background: var(--gris-clair);
+      border-radius: 8px;
+      padding: 48px 44px;
+      margin-top: 56px;
+      text-align: center;
+    }
+    .article-cta-titre {
+      font-family: 'Playfair Display', serif;
+      font-size: 26px;
+      color: var(--marine);
+      margin-bottom: 16px;
+    }
+    .article-cta-texte {
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      color: var(--texte-moyen);
+      line-height: 1.7;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .btn-marine {
+      display: inline-block;
+      background: var(--marine);
+      color: #fff;
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 14px 28px;
+      border-radius: 4px;
+      transition: opacity 0.2s;
+    }
+    .btn-marine:hover { opacity: 0.85; }
+
+    /* ===== FOOTER ===== */
+    #footer { background: #12192B; padding: 32px 40px; margin-top: 80px; }
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+    .footer-logo { height: 32px; width: auto; }
+    .footer-copy {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: rgba(255,255,255,0.45);
+    }
+    .footer-linkedin {
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--ambre);
+    }
+    .footer-linkedin:hover { opacity: 0.8; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .header-inner { padding: 0 20px; }
+      h1 { font-size: 30px; }
+      article { padding: 32px 20px 60px; }
+      .breadcrumb { padding-top: 88px; padding-left: 20px; padding-right: 20px; }
+      .article-body h2 { font-size: 23px; }
+      .retenir-block { padding: 28px 24px; }
+      .article-cta { padding: 36px 24px; }
+      .auteur-block { flex-direction: column; }
+      #footer { padding: 24px; }
+      .footer-inner { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="header-inner">
+      <a href="/">
+        <img src="../../assets/IE%20logo%20-%20fond%20transparent.png" alt="Intelligence Éditoriale" class="header-logo">
+      </a>
+      <a href="/#contact" class="btn-header">Analyse gratuite →</a>
+    </div>
+  </header>
+
+  <!-- BREADCRUMB -->
+  <nav class="breadcrumb" aria-label="Fil d'Ariane">
+    <a href="/">Accueil</a>
+    <span>›</span>
+    <a href="/blog/">Blog</a>
+    <span>›</span>
+    Blog B2B invisible sur ChatGPT et Perplexity ?
+  </nav>
+
+  <!-- ARTICLE -->
+  <article>
+
+    <div class="article-meta">
+      <span class="article-tag">GEO · Contenu B2B</span>
+      <span class="article-date">5 avril 2026</span>
+      <span class="article-readtime">8 min de lecture</span>
+    </div>
+
+    <h1>Votre blog B2B est bien référencé sur Google. Pourquoi est-il invisible sur ChatGPT et Perplexity ?</h1>
+
+    <!-- Résumé de tête — chunk prioritaire LLM -->
+    <div class="article-resume">
+      <p>Chaque semaine, des milliers de décideurs B2B posent à ChatGPT ou Perplexity des questions sur les solutions, les prestataires et les pratiques de leur secteur. Ils ne cherchent pas un lien. Ils cherchent une réponse. Et cette réponse, le moteur la construit en sélectionnant quelques sources parmi des milliers de pages disponibles.</p>
+      <p style="margin-top: 12px;">La vôtre en fait-elle partie ? Si non, cet article vous concerne.</p>
+    </div>
+
+    <div class="article-body">
+
+      <p>Même bien référencés sur Google, régulièrement alimentés et sérieusement documentés, la plupart des blogs B2B n'apparaissent pas dans les réponses composées par les LLM. Non parce que leur contenu est mauvais, mais parce qu'il n'est pas structuré pour être exploitable. Les moteurs de recherche génératifs ne lisent pas un article comme Google le fait. Ils le découpent, l'évaluent et prélèvent les blocs qui font sens seuls, hors contexte, en quelques secondes. Conséquence : un contenu qui ne passe pas ce filtre ne sera jamais cité, quelle que soit sa qualité intrinsèque.</p>
+
+      <p>C'est le sujet de cet article. Et le calendrier joue en votre faveur : en 2026, sur la plupart des secteurs B2B, les moteurs IA cherchent encore leurs sources de référence. Il y a des places à prendre. Voici comment faire.</p>
+
+      <hr>
+
+      <h2>Le GEO, c'est quoi concrètement ?</h2>
+
+      <p>Le GEO (Generative Engine Optimization) est l'ensemble des pratiques qui augmentent la probabilité qu'un contenu soit sélectionné, extrait et cité par un moteur de recherche génératif. Il se distingue du SEO classique sur un point fondamental : <strong>l'objectif n'est plus d'apparaître dans une liste de liens.</strong> C'est d'être la source qu'un LLM choisit pour construire sa réponse.</p>
+
+      <p>En 2026, <strong>les moteurs génératifs qui comptent pour une PME B2B française sont ChatGPT Search, Perplexity, Google AI Overviews et Gemini.</strong> Ils fonctionnent tous selon la même logique : ils crawlent le web, arbitrent entre les sources disponibles, puis synthétisent une réponse. Votre contenu doit être compréhensible et réutilisable à l'échelle d'un paragraphe. Pas d'un article entier.</p>
+
+      <p>Selon une <a href="https://arxiv.org/abs/2311.09735" target="_blank" rel="noopener">étude Princeton, Georgia Tech et Allen Institute</a> (2023) portant sur plusieurs milliers de requêtes, l'ajout de citations et de statistiques datées augmente la visibilité dans les réponses génératives jusqu'à 40 %. Le langage structuré et factuel favorise la sélection. Le contenu promotionnel ou trop narratif la pénalise.</p>
+
+      <hr>
+
+      <h2>Pourquoi c'est important pour votre activité</h2>
+
+      <p>Aujourd'hui, vos prospects cherchent autrement. Avant de contacter un fournisseur, de demander un devis ou d'assister à une démo, ils posent des questions à ChatGPT ou Perplexity. Pas pour acheter, mais pour comprendre, cadrer, comparer. C'est la phase de découverte, et elle se déroule de plus en plus dans l'interface d'un moteur génératif, et de moins en moins sur Google.</p>
+
+      <p>Ce moment est stratégique : si votre contenu est cité dans la réponse, vous entrez dans la réflexion de votre prospect avant même qu'il sache qu'il a besoin de vous. Si vous en êtes absent, c'est parce qu'un concurrent y est à votre place.</p>
+
+      <p><strong>En B2B, cette dynamique est plus marquée encore que dans le grand public.</strong> Les décideurs techniques, les directeurs des opérations, les responsables achats utilisent massivement les LLM pour structurer leurs analyses. Plus de 6 commerciaux B2B sur 10 utilisent des outils IA pour identifier les comptes à fort potentiel (LinkedIn x Ipsos, 2024). Ce qui était une tendance émergente il y a peu tend à devenir le comportement dominant.</p>
+
+      <p>Être cité par un LLM, c'est occuper une position dans l'esprit de votre prospect au moment précis où il construit sa conviction. C'est l'équivalent du référencement naturel en 2012 : ceux qui l'ont pris au sérieux suffisamment tôt ont creusé un écart difficile à combler par la suite.</p>
+
+      <hr>
+
+      <h2>Pourquoi votre SEO ne suffit plus</h2>
+
+      <p>Un contenu bien référencé sur Google remplit une condition nécessaire : il est indexé. Mais les LLM ajoutent une couche par-dessus l'index : <strong>la structuration pour l'extraction.</strong></p>
+
+      <p>Les bots qui alimentent ChatGPT Search crawlent l'index Bing. Gemini s'appuie sur l'index Google. Perplexity mixe les deux. Votre contenu doit donc être indexé et structuré pour être extrait. Deux exigences distinctes.</p>
+
+      <p>Concrètement : <strong>un article de 1 200 mots sans introduction directe, sans titres formulés comme des questions, sans données datées et sans FAQ ne sera pas sélectionné.</strong> Même s'il est en première page de Google sur son mot-clé. Les LLM cherchent des blocs de texte autonomes qui font sens indépendamment du contexte général de l'article (ce qu'on appelle des "chunks"). Si un passage ne peut pas être isolé sans perdre son sens, il ne sera jamais cité.</p>
+
+      <p>Selon <a href="https://sparktoro.com/blog/2024-zero-click-search-study-for-every-1000-us-google-searches-only-374-clicks-go-to-the-open-web-in-the-eu-its-360/" target="_blank" rel="noopener">SparkToro (2024)</a>, 37 % des recherches aboutissent désormais à un clic vers un site externe. Les 63 % restants se concluent dans l'interface du moteur. Pour une PME B2B, être cité dans la réponse est devenu plus stratégique qu'être en position 1.</p>
+
+      <hr>
+
+      <h2>Ce qui change concrètement dans un article optimisé GEO</h2>
+
+      <p>Quatre ajustements transforment un article SEO standard en contenu citable par les LLM :</p>
+
+      <ol>
+        <li><div><strong>Un résumé de tête en 2 à 4 phrases.</strong> Ce résumé répond directement à la question principale sans suspense ni développement préalable. C'est le bloc le plus souvent extrait par les moteurs génératifs. Un article qui commence par un développement contextuel sera ignoré au profit d'un article qui répond immédiatement.</div></li>
+        <li><div><strong>Des titres H2 formulés comme des questions ou des affirmations nettes.</strong> "Les avantages du logiciel X" ne sera pas extrait. En revanche, "Comment réduire les ruptures de stock avec un WMS ?" sera retenu parce qu'il correspond à une intention conversationnelle réelle. Chaque H2 doit pouvoir fonctionner comme une réponse autonome à une sous-question précise.</div></li>
+        <li><div><strong>Des données chiffrées datées et contextualisées.</strong> Un LLM traite une donnée sans date ni source comme une opinion. Une donnée bien structurée, par exemple "37 % des PME industrielles françaises déclaraient avoir amorcé leur transformation numérique en 2025 (Bpifrance, étude annuelle)", est traitée comme une information vérifiable. La différence est décisive pour la sélection.</div></li>
+        <li><div><strong>Une FAQ de 3 à 5 questions réelles.</strong> Pas des questions génériques fabriquées pour le SEO, mais les vraies questions que vos clients se posent. Ce format est privilégié par Google AI Overviews pour construire ses réponses rapides. Une FAQ bien rédigée peut générer des citations sur des dizaines de requêtes secondaires sans aucun article supplémentaire.</div></li>
+      </ol>
+
+      <hr>
+
+      <h2>Ce que ça vous rapporte concrètement</h2>
+
+      <p>Trois effets directs, mesurables :</p>
+
+      <ol>
+        <li><div><strong>Vous entrez dans la réflexion d'achat plus tôt.</strong> Un prospect qui lit votre nom dans une réponse Perplexity sur une problématique métier vous connaît déjà quand il arrive sur votre site. Le cycle de vente s'amorce avant le premier contact. En B2B, où la décision implique plusieurs interlocuteurs et plusieurs semaines d'exploration, cette présence amont s'avère bien souvent décisive.</div></li>
+        <li><div><strong>Vous réduisez votre dépendance au trafic Google.</strong> Un contenu cité par un LLM génère de la notoriété et de la mémorisation même sans clic. L'impact sur votre marque existe indépendamment du trafic direct.</div></li>
+        <li><div><strong>Vous créez un actif éditorial durable.</strong> Un article bien structuré pour les LLM continue d'être cité des mois après sa publication, sans budget publicitaire. Contrairement à un post LinkedIn dont la durée de vie est de 48 heures, <strong>un article GEO-optimisé travaille en continu.</strong> C'est du capital éditorial, pas de la consommation ponctuelle de contenu.</div></li>
+      </ol>
+
+      <hr>
+
+      <h2>Comment mesurer l'efficacité de votre contenu GEO ?</h2>
+
+      <p>C'est la question que tout dirigeant pose à juste titre : sans tableau de bord, comment savoir que ça marche ?</p>
+
+      <p>La réponse honnête est la suivante : à l'heure où est rédigé cet article (avril 2026), <strong>le GEO ne se mesure pas encore avec la même précision que le SEO.</strong> Il n'existe pas d'équivalent à Google Search Console pour les citations LLM. Mais des indicateurs concrets et accessibles existent.</p>
+
+      <p><strong>Le protocole de test manuel est la base.</strong> Sept jours après publication, vous posez votre prompt principal sur Perplexity, ChatGPT Search et Google. Vous notez si votre source est citée, comment elle est nommée, quel passage a été extrait. Ce test prend vingt minutes. Répété à J+21 et J+45, il vous donne une courbe d'évolution lisible.</p>
+
+      <p>Quatre indicateurs à suivre sans outil dédié : la part de vos articles cités sur un ensemble de requêtes testées, la qualité de l'attribution (votre marque est-elle nommée correctement ?), le taux de citation sur des requêtes voisines (signe que le bloc est robuste), et les prises de contact entrantes qui mentionnent avoir trouvé votre contenu via un moteur IA.</p>
+
+      <p>Pour aller plus loin, des outils spécialisés comme <a href="https://semactic.com" target="_blank" rel="noopener">Semactic</a> ou <a href="https://geneo.app" target="_blank" rel="noopener">Geneo</a> permettent un suivi semi-automatisé. Ils deviennent pertinents quand le volume d'articles à suivre dépasse une vingtaine. En dessous, le protocole manuel suffit.</p>
+
+    </div><!-- /.article-body -->
+
+    <!-- FAQ structurée -->
+    <section class="faq-section">
+      <h2 class="faq-titre">Questions fréquentes sur le GEO pour les blogs B2B</h2>
+
+      <div class="faq-item">
+        <p class="faq-question">Mon contenu est-il trop ancien pour être optimisé GEO ?</p>
+        <p class="faq-reponse">Non. La mise à jour d'un article existant produit souvent un effet GEO plus rapide qu'un nouvel article sur un sujet saturé. Ajouter un résumé de tête, reformuler les titres H2 et intégrer une FAQ à un article de 2 ans suffit dans la majorité des cas. La date de mise à jour est elle-même un signal de fraîcheur valorisé par les LLM.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Faut-il publier plus souvent pour être cité par les moteurs IA ?</p>
+        <p class="faq-reponse">La fréquence de publication n'est pas un critère de sélection pour les LLM. Un seul article bien structuré sur un angle précis et non saturé sera cité avant dix articles génériques. La densité factuelle et l'autonomie de chaque section comptent davantage que le volume.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Combien de temps avant de voir des résultats ?</p>
+        <p class="faq-reponse">Les premiers tests de citation peuvent être effectués 7 jours après publication. Les résultats se stabilisent entre J+21 et J+45. Contrairement au SEO, qui construit l'autorité sur des mois, le GEO peut produire des citations rapidement sur des angles non couverts.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Mon secteur est-il concerné par le GEO ?</p>
+        <p class="faq-reponse">Tous les secteurs B2B sont concernés dès lors que vos prospects utilisent ChatGPT ou Perplexity pour s'informer avant un acte d'achat ou une recherche de prestataire. En B2B industriel, logistique, SaaS ou services, les requêtes conversationnelles liées aux problématiques métier explosent depuis 2024. Le vide de données sur des angles spécifiques est souvent plus important que dans les secteurs grand public : c'est une opportunité directe de citation.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Le GEO va-t-il remplacer le SEO ?</p>
+        <p class="faq-reponse">Non. Ce sont deux disciplines complémentaires. Un excellent SEO reste la condition nécessaire : les LLM s'appuient sur les index Google et Bing pour sélectionner leurs sources. Le GEO ajoute une couche par-dessus : la structuration pour l'extraction. Un contenu mal référencé sur Google ne sera pas cité par les LLM. Un contenu bien référencé mais mal structuré non plus.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Faut-il des compétences techniques pour optimiser son blog en GEO ?</p>
+        <p class="faq-reponse">L'essentiel du GEO est éditorial, pas technique. Reformuler des titres, ajouter un résumé de tête, intégrer une FAQ : ce sont des décisions d'écriture, pas de développement. La partie technique (données structurées JSON-LD, balises schema.org) est réelle mais secondaire. Elle s'implémente une fois, en amont, et ne conditionne pas l'essentiel des citations.</p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-question">Quels sont les principaux moteurs de recherche IA à cibler en priorité ?</p>
+        <p class="faq-reponse">En 2026, quatre moteurs génératifs concentrent l'essentiel des usages professionnels :</p>
+        <ul style="margin-top: 12px; list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;">
+          <li style="padding-left: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.75; color: var(--texte-moyen);"><strong style="color: var(--marine);">Google AI Overviews</strong>, intégré directement dans les résultats de recherche Google, est le plus exposé : il génère des résumés visibles avant même les liens organiques.</li>
+          <li style="padding-left: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.75; color: var(--texte-moyen);"><strong style="color: var(--marine);">ChatGPT Search</strong>, activé par défaut dans ChatGPT, représente le volume d'utilisateurs le plus important.</li>
+          <li style="padding-left: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.75; color: var(--texte-moyen);"><strong style="color: var(--marine);">Perplexity</strong>, moteur conversationnel indépendant avec sources visibles, est la référence pour auditer sa propre visibilité GEO : il affiche clairement ses sources, ce qui en fait l'outil de test privilégié.</li>
+          <li style="padding-left: 0; font-family: 'Inter', sans-serif; font-size: 15px; line-height: 1.75; color: var(--texte-moyen);"><strong style="color: var(--marine);">Microsoft Copilot</strong>, adossé à Bing, complète le dispositif, notamment en contexte professionnel via l'intégration Microsoft 365.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Ce qu'il faut retenir -->
+    <div class="retenir-block">
+      <p class="retenir-titre">Ce qu'il faut retenir</p>
+      <p>Le GEO n'est pas un remplacement du SEO. <strong>C'est une couche supplémentaire qui conditionne la visibilité dans les réponses générées par les LLM.</strong> Un blog B2B qui publie déjà du contenu a une longueur d'avance : il dispose de la matière première. Ce qui manque dans la plupart des cas, c'est la structuration pour l'extraction.</p>
+      <p>Trois points actionnables pour commencer : ajouter un résumé de tête factuel à vos articles existants, reformuler vos titres H2 comme des questions réelles, intégrer une FAQ de 3 à 5 questions sur chaque article de fond. Ces trois ajustements ne nécessitent pas de réécriture complète. Ils suffisent à transformer un contenu indexé en contenu citable.</p>
+    </div>
+
+    <!-- Auteur -->
+    <div class="auteur-block">
+      <img src="../../assets/photo-arnaud.png" alt="Arnaud Bussières" class="auteur-photo">
+      <div>
+        <p class="auteur-nom">Arnaud Bussières</p>
+        <p class="auteur-titre">Rédacteur éditorial senior, spécialiste contenu B2B et GEO</p>
+        <p class="auteur-bio">Arnaud Bussières accompagne des PME B2B dans la structuration de leur contenu pour les moteurs de recherche génératifs. Avec 25 ans d'expérience en rédaction éditoriale, il intègre le GEO à sa pratique depuis 2025 sous la marque <a href="/">Intelligence Éditoriale</a>. Pour un premier échange : <a href="/#contact">20 minutes en visio, sans engagement</a>.</p>
+      </div>
+    </div>
+
+    <!-- CTA bas d'article -->
+    <div class="article-cta">
+      <p class="article-cta-titre">Votre blog est-il structuré pour les IA ?</p>
+      <p class="article-cta-texte">15 à 20 minutes en visio pour évaluer votre potentiel GEO et voir si on s'aligne. Analyse et devis gratuits.</p>
+      <a href="/#contact" class="btn-marine">Parlons de votre blog →</a>
+    </div>
+
+  </article>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <img src="../../assets/IE%20logo%20-%20fond%20sombre.png" alt="Intelligence Éditoriale" class="footer-logo">
+      <p class="footer-copy">© 2026 Intelligence Éditoriale — Nantes</p>
+      <a href="https://www.linkedin.com/in/intelligence-editoriale/" target="_blank" rel="noopener" class="footer-linkedin">LinkedIn →</a>
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll
+    var header = document.getElementById('main-header');
+    window.addEventListener('scroll', function() {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    });
+  </script>
+
+</body>
+</html>
